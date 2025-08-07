@@ -14,4 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Chỉ định lệnh mặc định khi container khởi động
-CMD ["python", "top_50_coin_have_volume.py"]
+
+CMD ["python", "top_50.py.py"]
