@@ -15,4 +15,5 @@ COPY . .
 
 # Chỉ định lệnh mặc định khi container khởi động
 
-CMD ["python", "top_50.py.py"]
+CMD ["python", "top_50.py"]
+
